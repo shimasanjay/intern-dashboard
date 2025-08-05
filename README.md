@@ -3,26 +3,34 @@
 This is a basic full stack intern dashboard created for the Round 1 task submission.
 
 ## 🔧 Tech Stack
-- **Frontend**: HTML, CSS, JavaScript (Vanilla)
-- **Backend**: Node.js + Express (REST API)
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js + Express
 
-## 📱 Features
+---
 
-- ✅ Dummy Login/Signup (can be added)
-- ✅ Dashboard showing:
-  - Intern Name
-  - Referral Code
-  - Total Donations Raised
-  - Rewards Section (Static)
-- ✅ Data fetched from dummy backend API
+## 📱 Features Implemented
 
-## 🔌 Backend API
+- Intern Dashboard with:
+  - ✅ Intern Name
+  - ✅ Referral Code
+  - ✅ Total Donations Raised
+  - ✅ Static Rewards Section
+- Dummy REST API (no database)
+- Clean and responsive design
+- Local testing with `localhost:3001`
 
-- Endpoint: `/api/intern`
-- Sample Response:
-```json
-{
-  "name": "Sanjay Ellur",
-  "referralCode": "sanjay2025",
-  "donationAmount": 4200
-}
+---
+
+## 🧪 Screenshots
+
+### 🔹 Intern Dashboard UI
+![Dashboard UI](./Screenshot%202025-08-05%20194429.png)
+
+### 🔹 Backend Running in Terminal
+![Backend Terminal](./Screenshot%202025-08-05%20194439.png)
+
+---
+
+## 📦 Backend API
+
+**Endpoint:**
